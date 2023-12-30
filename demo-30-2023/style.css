@@ -1,0 +1,101 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:green;
+    align-items: center;
+    padding: 10px 50px;
+    width: 100%;
+    height: 50px;
+}
+
+
+.logo{
+    width: 15%;
+    height: 50px;
+    display: block;
+    
+}
+.container{
+    display: inline-block;
+    position: relative;
+}
+.content{
+    position: absolute;
+}
+
+.MidleManu li {
+    list-style-type: none;
+    display:inline-block;
+   
+}
+
+.MidleManu li a {
+    text-decoration: none;
+    color: bisque;
+    padding:10px 50px;
+    border-radius: 20px; 
+
+}
+.sidebar li a{
+    text-decoration: none;
+    color: bisque;
+    display: block;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.MidleManu li a:hover{
+    background-color: rgb(248, 0, 0);
+}
+.sidebar li a:hover{
+    background-color: red;
+    
+}
+
+.surchbar{
+    width: 20%;
+    
+}
+.surchbar input {
+    border: 2px solid rgb(122, 122, 122);
+    padding: 5px;
+
+}
+.surchbar input:hover{
+    border: 3px solid red;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.body{
+    width: 100%;
+    background-color: gray;
+    display: flex;
+}
+.sidebar{
+    width: 20%;
+    background-color: chocolate;
+}
+.midlebar{
+    width: 80%;
+    display: block;
+}
+.midlebar img{
+    height: 400px;
+}
+.main{ 
+    width: 100%;
+    display: flex;
+    
+}
+.box{ 
+    width: 25%;
+   
+}
+
